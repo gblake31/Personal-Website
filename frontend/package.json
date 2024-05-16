@@ -1,5 +1,6 @@
 {
   "name": "Personal Website",
+  "homepage": "https://gblake31.github.io/Personal-Website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
