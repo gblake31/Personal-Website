@@ -1,10 +1,20 @@
 import React from 'react';
-import './App.css';
+import Home from './sections/Home';
+import Navigation from './Navigation';
+import AboutMe from './sections/AboutMe';
 
 function App() {
   return (
-    <h1>Hello World!</h1>
-  );
+    <div style = {{padding: '0px 200px'}}>
+      <Navigation/>
+      <div>
+      <div style = {{display: 'flex', flexDirection: 'column', padding: '0px'}}>
+        <Home/>
+        <AboutMe/>
+      </div>
+      </div>
+    </div>
+  )
 }
 
 export default App;
