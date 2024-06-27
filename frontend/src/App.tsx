@@ -1,20 +1,31 @@
-import React from 'react';
-import Home from './sections/Home';
-import Navigation from './Navigation';
-import AboutMe from './sections/AboutMe';
+import React from "react";
+import HomeSection from "./sections/HomeSection";
+import Navigation from "./Navigation";
+
+import './theme/base.css'
+import ExperienceSection from "./sections/ExperienceSection";
+
+function Row() {
+  return (
+    <div style={{margin: '25px 0px'}}>
+    </div>
+  )
+}
 
 function App() {
   return (
-    <div style = {{padding: '0px 200px'}}>
-      <Navigation/>
-      <div>
-      <div style = {{display: 'flex', flexDirection: 'column', padding: '0px'}}>
-        <Home/>
-        <AboutMe/>
-      </div>
+    <div className='page'>
+      <Navigation />
+      <div
+        style={{ display: "flex", alignItems: "center", flexDirection: "column", padding: "0px" }}
+      >
+        <HomeSection />
+        <Row/>
+        <ExperienceSection/>
+        <Row/><Row/><Row/><Row/>
       </div>
     </div>
-  )
+  );
 }
 
 export default App;

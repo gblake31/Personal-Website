@@ -4,7 +4,6 @@ import "./theme/fonts.css";
 import "./theme/buttons.css";
 
 function Navigation() {
-  const myRef = useRef<HTMLElement | null>(null);
   return (
     <div>
       <div
@@ -13,18 +12,14 @@ function Navigation() {
           flexDirection: "row",
           justifyContent: "space-between",
           alignItems: "center",
-          padding: "0px 10px",
+          padding: "30px 0px 10px 0px",
+          borderBottom: "5px solid #4C86A8"
         }}
       >
         <h3 style={{ padding: "0px", margin: "0px" }}>Blake Gassman</h3>
-        <div>
+        <div style= {{display: 'flex', gap: '20px'}}>
           <button
             className="font_black"
-            onClick={() =>
-              myRef.current?.scrollIntoView({
-                behavior: "smooth",
-              })
-            }
           >
             Home
           </button>
@@ -34,7 +29,6 @@ function Navigation() {
           <button className="font_black">Contact</button>
         </div>
       </div>
-      <hr style={{ border: "1px solid lightgray" }} />
     </div>
   );
 }
