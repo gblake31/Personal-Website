@@ -4,6 +4,7 @@ import Navigation from "./Navigation";
 
 import './theme/base.css'
 import ExperienceSection from "./sections/ExperienceSection";
+import ProjectsSection from "./sections/ProjectsSection";
 
 function Row() {
   return (
@@ -17,11 +18,13 @@ function App() {
     <div className='page'>
       <Navigation />
       <div
-        style={{ display: "flex", alignItems: "center", flexDirection: "column", padding: "0px" }}
+        style={{ display: "flex", flexDirection: "column", padding: "0px" }}
       >
         <HomeSection />
         <Row/>
         <ExperienceSection/>
+        <Row/>
+        <ProjectsSection/>
         <Row/><Row/><Row/><Row/>
       </div>
     </div>

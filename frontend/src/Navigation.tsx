@@ -23,7 +23,6 @@ function Navigation() {
           >
             Home
           </button>
-          <button className="font_black">About</button>
           <button className="font_black">Experience</button>
           <button className="font_black">Projects</button>
           <button className="font_black">Contact</button>

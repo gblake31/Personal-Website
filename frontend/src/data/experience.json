@@ -1,0 +1,32 @@
+{
+    "experience": [
+        {
+            "title": "Software Developer Intern",
+            "company": "Epic",
+            "description": "Developed an application to help clinicians integrate out-of-network allergy data into their patients' charts.",
+            "date": "May - August 2023",
+            "imageSrc": "./assets/epicLogo.jpg"
+        },
+        {
+            "title": "Software Engineer Intern",
+            "company": "Meta",
+            "description": "Developed and tested new features for Facebook Reels and Stories.",
+            "date": "May - August 2022",
+            "imageSrc": "./assets/metaLogo.jpg"
+        },
+        {
+            "title": "Teaching/Learning Assistant",
+            "company": "UCF College of Engineering and Computer Science",
+            "description": "Delivered 20+ lectures/recitations on topics ranging from algorithm analysis to game development.",
+            "date": "June - December 2021",
+            "imageSrc": "./assets/ucf_cecs.jpg"
+        },
+        {
+            "title": "Undergraduate Researcher",
+            "company": "Wearable Engineering and Assistive Robotics Lab",
+            "description": "Developed a Unity based mobile app to drive the Mechatronic Musical Instrument (MMI).",
+            "date": "May - November 2021",
+            "imageSrc": "./assets/wearLabLogo.jpg"
+        }
+    ]
+}
