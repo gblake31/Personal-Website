@@ -7,7 +7,7 @@ import ExperienceSection from "./sections/ExperienceSection";
 import ProjectsSection from "./sections/ProjectsSection";
 import ContactSection from "./sections/ContactSection";
 
-function Row() {
+export function Row() {
   return (
     <div style={{margin: '25px 0px'}}>
     </div>
@@ -16,18 +16,16 @@ function Row() {
 
 function App() {
   return (
-    <div className='page'>
+    <div id = 'home' className='page'>
       <Navigation />
       <div
         style={{ display: "flex", flexDirection: "column", padding: "0px" }}
       >
         <HomeSection />
-        <Row/>
         <ExperienceSection/>
         <ProjectsSection/>
         <Row/>
         <ContactSection/>
-        <Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/>
       </div>
     </div>
   );

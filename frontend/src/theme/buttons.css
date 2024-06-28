@@ -54,3 +54,8 @@ button:hover {
     transform: scale(0.97); /* Slightly shrink the button */
     box-shadow: 6px 4px 2px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
 }
+
+.iconButton {
+    width: '20px';
+    height: '20px';
+}

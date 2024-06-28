@@ -24,7 +24,16 @@
             "description": "Bla bla bla",
             "imgSrc": "./assets/poker.png",
             "visit": "https://paradise-7.herokuapp.com/",
-            "github": "https://github.com/gblake31/Elysium7-Trade"
+            "github": "https://github.com/gblake31/Sockets"
+        },
+
+        {
+            "name": "Personal Website",
+            "subtitle": "An online multiplayer texas-holdem poker game.",
+            "description": "Bla bla bla",
+            "imgSrc": "./assets/personal.png",
+            "visit": "localhost:3000/",
+            "github": "https://github.com/gblake31/Personal-Website"
         }
 
 

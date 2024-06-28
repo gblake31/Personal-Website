@@ -52,7 +52,7 @@ function Experience({position, location, description, date, index, imageSrc}: Ex
 function ExperienceSection() {
   const experiences = experience.experience
   return (
-    <div style = {{paddingBottom: '80px', borderBottom: "5px solid #4C86A8"}}>
+    <div id = 'experience' style = {{paddingTop: '30px', paddingBottom: '80px', borderBottom: "5px solid #4C86A8"}}>
         <h2 style={{marginBottom: '50px'}}>My Experience</h2>
         <div style = {{display: 'flex', flexDirection: 'column', gap: '50px'}}>
           {
