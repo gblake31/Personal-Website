@@ -5,6 +5,7 @@ import Navigation from "./Navigation";
 import './theme/base.css'
 import ExperienceSection from "./sections/ExperienceSection";
 import ProjectsSection from "./sections/ProjectsSection";
+import ContactSection from "./sections/ContactSection";
 
 function Row() {
   return (
@@ -23,9 +24,10 @@ function App() {
         <HomeSection />
         <Row/>
         <ExperienceSection/>
-        <Row/>
         <ProjectsSection/>
-        <Row/><Row/><Row/><Row/>
+        <Row/>
+        <ContactSection/>
+        <Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/>
       </div>
     </div>
   );

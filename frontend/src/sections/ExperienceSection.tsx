@@ -28,7 +28,7 @@ interface ExperienceProps {
 function Experience({position, location, description, date, index, imageSrc}: ExperienceProps) {
   return (
     <div style={{display: 'flex'}}>
-      <div style = {{border: '#0C1821 solid 1px', backgroundColor: 'white', borderRadius: '8px', padding: '20px', width: '65%', boxShadow: '2px 2px 2px rgb(0, 0, 0, 0.2)', position: 'relative'}}>
+      <div style = {{border: '#0C1821 solid 3px', backgroundColor: 'white', borderRadius: '8px', padding: '20px', width: '80%', boxShadow: '2px 2px 2px rgb(0, 0, 0, 0.2)', position: 'relative'}}>
         <div style = {{position: 'relative'}}>
           <h3 className='font_black'>{position}</h3>
           <h4 className='font_blue'>{location}</h4>
@@ -43,7 +43,7 @@ function Experience({position, location, description, date, index, imageSrc}: Ex
         <div id = 'vertical_strip' style = {{zIndex: '-1', left: '10%', width: '60px', height: '140%', position: 'absolute'}}>
           <div id = 'centered_black_line' style = {{position: 'absolute', left: '50%', transform: 'translate(-50%, -25%)', width: '10px', height: '100%', backgroundColor: 'black'}}></div>
         </div>
-        <h6 style = {{position: 'absolute', left: '25%', top: '50%', transform: 'translate(0%, -50%)'}}>{date}</h6>
+        <h6 style = {{position: 'absolute', left: '27%', top: '50%', transform: 'translate(0%, -50%)'}}>{date}</h6>
       </div>
     </div>
   );

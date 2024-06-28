@@ -28,7 +28,12 @@ function HomeSection() {
               playing the French Horn and exploring the outdoors. I love solving
               problems and tackling challenging projects.
             </p>
-            <button className='niceButton'>
+            <button className='niceButton' onClick={() => {
+              const projects = document.getElementById('projects')
+              projects?.scrollIntoView({
+                behavior: 'smooth',
+              })
+            }}>
               <h5 style = {{textTransform: 'uppercase'}}>See some of my recent work</h5>
             </button>
           </div>
